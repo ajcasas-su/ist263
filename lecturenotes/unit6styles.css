@@ -1,0 +1,16 @@
+        /* p is our selector, color is our property and darkorchid is our value*/
+        p, h1 {color:darkred;
+            /*this is font size by percent age. 3 times default
+            font-size: 300%;*/
+            font-size: 1.5em;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        p a {color:chartreuse;}
+        
+        #firstlink {color:rgb(255, 0, 234);text-shadow: 50px 50px 5px red; font-size: 300%;}
+        .redtext {color:crimson}
+
+   
