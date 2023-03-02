@@ -1,0 +1,12 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h1, h2 {color:#4C4B16;}
+.evenrow {background-color: #6c5309;}
+body {color:#8d842a; background-color: #F7F1E5;}
+a {color:#dda537}
+nav {background: #8d842a; padding: 10px; margin-bottom: 30px}
+nav a {color: #e5d98d;}
+nav a:hover {background-color: #F7F1E5;}
+
+
+h1 {font-size: 4em;}
+h2 {font-size: 2em;}
