@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering</title>
+    <style>
+        body {font-family:Verdana, Geneva, Tahoma, sans-serif}
+        p {text-align: center;}
+        h1, div {background-color: rgb(115, 115, 159); }
+        div {width: 50%; margin: 0 auto; padding: 10px}
+        img {width: 50%;padding: 10px;}
+        section {
+            /* content cannot take up full width
+                will keep block level element 10 percent of screen
+            */
+            border: 2px dashed;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Centering</h1>
+    <h2>Text Centering</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi officiis iusto assumenda, vitae molestias rem quibusdam exercitationem similique itaque soluta enim. Omnis itaque, neque aliquid quam iure error reprehenderit.</p>
+    <h2>Block Centering</h2>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi officiis iusto assumenda, vitae molestias rem quibusdam exercitationem similique itaque soluta enim. Omnis itaque, neque aliquid quam iure error reprehenderit.</div>
+
+    <h2>Flexbox Hack</h2>
+    <section>
+    <img src="../images/otto.jpg" alt="otto mascott">
+    </section>
+</body>
+</html>

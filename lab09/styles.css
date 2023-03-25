@@ -1,0 +1,31 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:large; color:#8d842a; background-color: #F7F1E5;}
+h1, h2 {color:#4C4B16; text-align: center;}
+.evenrow {background-color: #6c5309;}
+a {color:#dda537}
+nav {background: #8d842a; padding: 10px; margin-bottom: 30px}
+nav a {color: #e5d98d;}
+nav a:hover {background-color: #F7F1E5;}
+
+
+h1 {font-size: 4em;}
+h2 {font-size: 2em;}
+
+.quote {float: right; margin: Rounded Corners}
+
+
+
+.section1, .section2 {color:#F7F1E5; background-color:#68614f; border-radius: 10px;}
+img {width: 50px;}
+
+
+.row1{display: flex; margin: 50px;}
+.col1 {flex: 1;}
+.col2 {flex: .25;}
+
+.flex, .skills {display:flex; justify-content: space-evenly; flex: auto;}
+.flex { margin: 50px;}
+
+
+aside {background-color: #4C4B16; padding: 10px;  border-radius: 10px; color: #F7F1E5;}
+aside h2 {color:#F7F1E5}
+
