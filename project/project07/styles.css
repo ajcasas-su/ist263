@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+nav {
+    background: #0db196f1; 
+    padding: 10px;  
+    color: #ffffff; 
+    font-size: larger;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: left;
+   
+}
+
+#pagetitle {
+    background-image: url('..//images/wallpaperflare.com_wallpaper.jpg');
+    background-size: 200%;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.home, .bios, .gear {
+    border-right: 1px solid #c9cbd0; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.header {
+    padding: 20px;
+    background:#000000 ;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#headertitle {
+    margin-left: auto;
+    margin-top: auto;
+    font-size: larger;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+    
+h1, h2, h3 {
+    text-align: center;
+    }
+
+p, hr, header {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px  
+}
+
+p {
+    margin-top: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 60%;
+
+  }
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1.5px solid;
+    }
+
+.footer {
+    background: #0db196f1; 
+    padding: 100px;
+}
+ 
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+  }
+
+.show {
+    opacity: 1;
+}
+
+
+
+.hiddenbioLeft {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+.showbioLeft {
+    opacity: 1;
+    filter:blur(0);
+    transform:translateX(0)
+}
+
+.hiddenbioRight {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(100%);
+    transition: all 1s;
+  }
+
+.showbioRight {
+    opacity: 1;
+    filter:blur(0);
+    transform:translateX(0)
+}
+
+
+
+
+
+#jguitar {
+    padding-top: 100px;
+}
+
+.left {
+    float: left;
+    padding: 100px;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.right {
+    float: right;
+    padding: 100px;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#biotitle {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: auto;
+    font-size: 50px;
+}
