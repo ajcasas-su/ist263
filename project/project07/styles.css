@@ -180,4 +180,19 @@ hr {
     font-size: 65px;
 }
 
+.hometitle {
+    background-image: url('../images/pexels-pixabay-417451.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    margin: auto;
+    color: #e4d6d6;
+    font-size: 65px;
+}
+
 .clearfloat {clear:both;}
+
+#homeheader {
+    padding-top: 50px;
+}
