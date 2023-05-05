@@ -22,6 +22,7 @@ nav {
 #pagetitle {
     background-image: url('..//images/wallpaperflare.com_wallpaper.jpg');
     background-size: 200%;
+    background-repeat: no-repeat;
     padding-top: 400px;
     padding-bottom: 400px;
     margin: auto;
@@ -145,6 +146,7 @@ hr {
     padding: 100px;
     max-width: 20%;
     max-height: 20%;
+    min-width: 300px;
 }
 
 .right {
@@ -152,11 +154,17 @@ hr {
     padding: 100px;
     max-width: 20%;
     max-height: 20%;
+    min-width: 300px;
+
 }
 
 #biotitle {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-image: url('../images/guitar-color-black-amp-close-up-electronics-616931-pxhere.com.jpg');
+    background-size: 125%;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    padding-bottom: 400px;
     margin: auto;
-    font-size: 50px;
+    color: #e4d6d6;
+    font-size: 65px;
 }
