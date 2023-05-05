@@ -153,6 +153,7 @@ hr {
 .left {
     float: left;
     padding: 100px;
+    padding-bottom: 50px;
     max-width: 20%;
     max-height: 20%;
     min-width: 300px;
@@ -161,6 +162,7 @@ hr {
 .right {
     float: right;
     padding: 100px;
+    padding-bottom: 50px;
     max-width: 20%;
     max-height: 20%;
     min-width: 300px;
@@ -177,3 +179,5 @@ hr {
     color: #e4d6d6;
     font-size: 65px;
 }
+
+.clearfloat {clear:both;}
