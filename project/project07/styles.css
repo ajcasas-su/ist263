@@ -19,7 +19,7 @@ nav {
    
 }
 
-#pagetitle {
+.pagetitle {
     background-image: url('..//images/wallpaperflare.com_wallpaper.jpg');
     background-size: 200%;
     background-repeat: no-repeat;
@@ -133,6 +133,15 @@ hr {
     transform:translateX(0)
 }
 
+.hiddenbackground {
+    filter: blur(8px);
+    transition: all 0.5s;
+  }
+
+.showbackground {
+    filter:blur(0);
+}
+
 
 
 
@@ -158,7 +167,7 @@ hr {
 
 }
 
-#biotitle {
+.biotitle {
     background-image: url('../images/guitar-color-black-amp-close-up-electronics-616931-pxhere.com.jpg');
     background-size: 125%;
     background-repeat: no-repeat;
